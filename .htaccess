@@ -1,0 +1,36 @@
+RewriteEngine on
+ErrorDocument 404 http://localhost/chery_yedek_parca/sayfa-yok!!
+
+#RewriteRule ^hakkimizda$ index.php?do=hakkimizda [NC,L]
+#RewriteRule ^anasayfa$ index.php?do=anasayfa [NC,L]
+RewriteRule ^iletisim$ iletisim.php [NC,L]
+RewriteRule ^siparis$ siparis_ver.php [NC,L]
+RewriteRule ^arama$ urun_ara.php [NC,L]
+RewriteRule ^anasayfa$ index.php [NC,L]
+
+
+
+#RewriteRule ^duyurular$ duyurular.php [NC,L]
+#RewriteRule ^nota-dosyalari$ 17_dosyalarim_Nota2017.php [NC,L]
+
+RewriteRule ^sayfa-yok!!$ 404.php [NC,L]
+
+
+
+
+RewriteRule ^markalar-([0-9a-zA-Z-_]+)-([0-9]+)$ markalar.php?marka_id=$2 [L,QSA]
+RewriteRule ^modeller-([0-9a-zA-Z-_]+)-([0-9]+)$ modeller.php?model_id=$2 [L,QSA]
+RewriteRule ^yedek-parca-([0-9a-zA-Z-_]+)-([0-9]+)$ yedekParcaDetay.php?yedekParca=$2 [L,QSA]
+
+
+RewriteRule ^duyurular-([0-9a-zA-Z-_]+)-([0-9]+)$ duyuru_detay.php?duyuruID=$2 [L,QSA]
+RewriteRule ^nota-dosyalari-([0-9a-zA-Z-_]+)-([0-9]+)$ 17_dosyalarim_Nota2017.php?dosyaID=$2 [L,QSA]
+RewriteRule ^resimgaleri-([0-9a-zA-Z-_]+)-([0-9]+)$ resim_galeri.php?galeriID=$2 [L,QSA]
+
+
+
+
+
+
+
+

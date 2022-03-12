@@ -1,0 +1,65 @@
+.yedek_parca_arama{margin-top: 70px;margin-left: 80px;}
+.ara{margin-top: 70px; margin-left: 60px;}
+#navbar .li_iletisim {float: right; background: white; color: orange; font-weight: bold;font-family:arial;}
+#navbar .li_iletisim .li_iletisim_a{color: orange;}
+#navbar .li_siparis{float: right; background: white; font-weight: bold;font-family:arial;}
+#navbar .li_siparis .li_siparis_a{color: orange;}
+.tum_goster_span{float: right;}
+.tum_goster_span:hover{float: right;}
+.tum_goster_btn{color: white; background-color: orange; border:none;border-radius: 5px; font-weight: bold;}
+.tum_goster_btn:hover{color: white; background-color: orange; border:none; font-size: 15px;}
+.row1_top{margin-top: 25px;}
+.row1_top .catg1_img_class{width: 100%; border-radius: 5px;}
+h5 .urun_resim_isim{/*font-size: 14px; font-weight: bold;font-family: arial; color: black; */}
+.fiyat_stok{background-color: #ddd; border-radius: 5px; font-size: 18px; 
+            width: 100%; margin-top: 10px; font-weight: bold; }
+.fiyat_stok p{font-size: 14px; font-weight: bold; color: black; text-decoration: underline;}
+
+.fiyat_stok2{background-color: #ddd; border-radius: 5px; font-size: 14px; 
+            width: 100%; margin-top: 10px; font-weight: bold; line-height: 40px;}
+.fiyat_stok2 p{font-size: 14px; font-weight: bold; color: black; text-decoration: underline;}
+
+.fiyat_stok3{background-color: #ddd; border-radius: 5px; font-size: 12px; 
+            width: 100%; margin-top: 10px; font-weight: bold; line-height: 30px;}
+.fiyat_stok3 p{font-size: 12px; font-weight: bold; color: black; text-decoration: underline;}
+
+i.var{color: green;}
+
+i.yok{color: red;} 
+
+ 
+.fiyat_stok1{text-decoration: underline;background-color: #ddd; border-radius: 5px; font-size: 16px; 
+            width: 100%; margin-top: 20px; color: black;font-weight: bold; height: 50px; line-height: 50px;}
+ .post_titile3 a{font-size: 13px;}
+  .post_titile3 a:hover{font-size: 13px; color: orange}  
+
+.fiyat_stok1 span{font-size: 18px; font-weight: bold; color: white;}
+.fiyat_stok1 span i{ margin-right: 5px; }
+.model_sagyasla{color:#ffa500; float: right;}
+.model_sagyasla a{color:gray; font-size: 25px; margin-right: 20px;}
+.Maps_solyasla hr{border:0.5px solid #798992; width: 70%; float: left;}
+.Tel_sagyasla h2{margin-bottom:50 }
+.hr_size{  margin-right: 20px; margin-top: 8px; }
+.modeller_liste span{float: left; margin-bottom:  30px;}
+.modeller_liste  button {color: white; background-color: gray; border:none;border-radius: 3px;  min-height: 28px; width: 117px; margin-left: 5px; font-size: 15px; font-weight: bold; text-align: left; margin-bottom: 5px;}
+#cok_stn{margin-top: 40px;}
+.facebook_1{width: 100%;}
+.single_featured_slide .urun_resim_isim{ font-size: 18px; color: #383838; float: left; font-family:'arial',sans-serif;-webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s; margin-left: 10px;}
+.single_featured_slide .urun_resim_isim:hover{ font-size: 18px; color: orange; float: left; margin-left: 10px;}
+.single_featured_slide span{float: right;}
+.gonder{font-weight: bold;}
+.adres_bilgi{margin-top: 40px; margin-bottom: 80px;}
+.tel_cerceve{margin-right: 15px;}
+.tel{font-size: 17px; float: right; margin-bottom: 15px; font-family: arial;}
+.tel p{font-weight: bold;}
+.tel span{margin-left: 15px; font-style: italic; font-size: 18px;}
+.sosyal{ margin-right: 15px;  float: right;}
+
+.sosyal .facem {color: #3954a1; margin-right: 5px}
+.sosyal .twit {margin-left: 5px; color: #1da1f2;}
+.sosyal .youtube {margin-left: 5px; color: #e62117;}
+.catg1_nav .urun_aciklamaCerceve{margin-bottom: 40px;}
+.urun_aciklama{font-size: 18px;}
+.urun_aciklama .row{margin-bottom: 10px;}
+.urun_aciklama .sutun_1{font-weight: bold;}
+.benzer_urun{margin-top: 135px;}
